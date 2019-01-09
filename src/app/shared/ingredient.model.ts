@@ -1,4 +1,4 @@
-export class Ingresient {
+export class Ingredient {
     // name: string;
     // amount: number; zamiast tych prop uzyc public w ctor
 
