@@ -9,6 +9,8 @@
         <li style="cursor: pointer" routerLinkActive="active"><a [routerLink]="['/shopping-list']">Shopping List</a></li>
       </ul>
       <ul class="nav navber-nav navbar-right">
+        <li *ngIf="auth.user"><a routerLink="/signup">Sign Up</a></li>
+        <li><a routerLink="/signin">Sign In</a></li>
         <li class="dropdown" appDropdown>
           <a style="cursor: pointer"  class="dropdown-toggle" role="botton">Manage<span class="caret"></span></a>
           <ul class="dropdown-menu">
